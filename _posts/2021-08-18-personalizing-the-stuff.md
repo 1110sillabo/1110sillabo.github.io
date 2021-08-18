@@ -75,6 +75,18 @@ Taking a look at the code we see this:
 
 So we need to set a google_analytics var in the config.yml file.
 
+# Add a new section with permalink
+
+I want to add a further section next to the about one. I want it to point to my Digital Humanities book.
+
+The comple
+
+[Stackoverflow help with buttons](https://stackoverflow.com/questions/40688633/how-can-i-add-a-button-in-a-md-file-with-jekyll)
+
+## Build error
+
+If you use the include tag somewhere in your layouts or site and don't have the corresponding html file in the \_includes folder you get an error and the build fails.
+
 # To Do
 
 - [x] display categories
