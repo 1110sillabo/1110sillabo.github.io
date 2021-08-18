@@ -42,6 +42,15 @@ Markdown comes first. Edit the markdown to edit. Cancel the markdown to see the 
 [This gist](https://gist.github.com/Phlow/a0e3fa686eb259fe7f76) was enough to get all the categories to show up.
 All I have to add was an html tag in the markdown, otherwise the code specs run (i.e.: all categories are selected, etc, all the {{tags}} are resolved and process, but the html tags will be written rather than compiled).
 
+Still, this was not enough to add to the home.
+
+# Adding layouts and editing home
+
+To have the categories showing up in the main page as its content I realized I need to change Jekyll layout.
+Adding what I need in the about.markdown did not work.
+
+So here is the [folder structure of Jekyll themes and layout](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) and [here is the home sourcecode](https://github.com/jekyll/minima/blob/master/_layouts/home.html)
+
 # To Do
 
 - [x] display categories
