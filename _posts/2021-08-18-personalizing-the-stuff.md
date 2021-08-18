@@ -38,13 +38,17 @@ I've read that \_config.yml files are not reloaded automatically (rerunning the 
 - display categories
 - analytics
 - adding more sections
-- try to delete a post:
+- try to delete a post
 
 # Catogeries experiment
 
 Will this work?
 
 <h2>Categories</h2>
+
+Test compiles but it's not rendered
+
+<html>
         <ul>
           {% assign categories_list = site.categories %}
           {% if categories_list.first[0] == null %}
@@ -79,3 +83,5 @@ Will this work?
           {% assign group = nil %}
         </ul>
         {% endfor %}
+
+</html>
