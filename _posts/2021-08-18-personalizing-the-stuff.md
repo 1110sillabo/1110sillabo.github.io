@@ -47,7 +47,7 @@ Still, this was not enough to add to the home.
 # Adding layouts and editing home
 
 To have the categories showing up in the main page as its content I realized I need to change Jekyll layout.
-Adding what I need in the about.markdown did not work.
+Adding what I need in the about.markdown did not work. You get the text, but it comes before everything else.
 
 So here is the [folder structure of Jekyll themes and layout](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) and [here is the home sourcecode](https://github.com/jekyll/minima/blob/master/_layouts/home.html)
 
