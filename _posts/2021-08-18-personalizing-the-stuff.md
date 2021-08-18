@@ -49,7 +49,31 @@ Still, this was not enough to add to the home.
 To have the categories showing up in the main page as its content I realized I need to change Jekyll layout.
 Adding what I need in the about.markdown did not work. You get the text, but it comes before everything else.
 
-So here is the [folder structure of Jekyll themes and layout](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) and [here is the home sourcecode](https://github.com/jekyll/minima/blob/master/_layouts/home.html)
+So here is the [folder structure of Jekyll themes and layout](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) and [here is the home sourcecode](https://github.com/jekyll/minima/blob/master/_layouts/home.html).
+
+## Back to Categories
+
+As I managed to include the categories in the home I realized there was something wrong with the mechanism.
+Categories in the gist are provided as a set of two lists. The first has the categories added and the count. Clicking on them sends you to the list of the category with links to the pieces tagged with that category.
+Now you click on them and can reach the pieces.
+
+**Issue with the URLs**
+
+Probably due to the way post.url and site.url works on the github powered engine I had to remove the site.url tag to create the correct link to the post. So I have this:
+
+<li><a href="{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}"
+                    itemprop="datePublished">{{ post.date | date: "%B %d, %Y"
+                    }}</time></a></li>
+
+# Google Analytics (Includes)
+
+The minima theme includes also [a dedicated file to add Google Analytics](https://github.com/jekyll/minima/blob/master/_includes/google-analytics.html).
+
+Taking a look at the code we see this:
+
+**https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}**
+
+So we need to set a google_analytics var in the config.yml file.
 
 # To Do
 
