@@ -79,9 +79,9 @@ So we need to set a google_analytics var in the config.yml file.
 
 I want to add a further section next to the about one. I want it to point to my Digital Humanities book.
 
-The comple
+[Stackoverflow helped with buttons](https://stackoverflow.com/questions/40688633/how-can-i-add-a-button-in-a-md-file-with-jekyll) but the issue was that I needed to find the right place to put the button.
 
-[Stackoverflow help with buttons](https://stackoverflow.com/questions/40688633/how-can-i-add-a-button-in-a-md-file-with-jekyll)
+Again, I had to check the \_includes and add the header.html file and customize it. Right before the loop that watches for your file and build sections out of it, you can add what you need. Cool.
 
 ## Build error
 
@@ -91,8 +91,9 @@ If you use the include tag somewhere in your layouts or site and don't have the 
 
 - [x] display categories
 - analytics
-- adding more sections
+- [x] adding more sections
 - [x] try to delete a post
+- [ ] handle redirects etc (will it require to check posts and categories again?)
 
 # Catogeries experiment
 
