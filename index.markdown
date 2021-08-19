@@ -6,3 +6,7 @@ layout: home
 ---
 
 Markdown text here to welcome all!
+
+Changed
+
+{{site.baseurl}}
