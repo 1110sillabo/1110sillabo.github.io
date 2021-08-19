@@ -8,14 +8,10 @@ permalink: /about/
 
 The easy answer is that naming doesn't care about tech acronyms. They used to shorten my name that way, so that's it. ''Remember when you were young?''..."
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**Music**
+I was into music before I could read properly. I started a podcast on DIY Musicians – The Podcast of the Bedroom Revolution and realized how hard it is to produce something with a constant schedule **and** other commitments. Work won on it, but past episodes are still on [Spreaker](https://www.spreaker.com/show/2964822).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Further music stuff is on [Soundcloud](https://soundcloud.com/guglielmo-feis). EPs and song are being written and partly recorded.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+**Academia**
+I’ve been trained as a philosopher and then got my Ph.D. in legal philosophy (faculty of Law). I am been doing academic philosophy for the last 10 years. Here are my old pages on [Academia.edu](https://uniri.academia.edu/GuglielmoFeis) and [Researchgate](https://www.researchgate.net/profile/Guglielmo-Feis) and the like.
