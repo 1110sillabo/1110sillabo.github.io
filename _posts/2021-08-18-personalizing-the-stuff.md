@@ -87,6 +87,12 @@ Again, I had to check the \_includes and add the header.html file and customize 
 
 If you use the include tag somewhere in your layouts or site and don't have the corresponding html file in the \_includes folder you get an error and the build fails.
 
+# Editing the Minima template
+
+Once you have a minimal grasp of how this 'Jekyll thing and pages' works the best place to moove to the next tinkering stage is [Minima's repo itself](https://github.com/jekyll/minima#home-layout). That's **the** palce to figure out what's included in the \_include and \_layouts and provides all you need to start messing around with the template.
+
+Just first copy what you need and then edit it.
+
 # To Do
 
 - [x] display categories
